@@ -3,13 +3,12 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        timestamps()
+        echo 'Build Started'
       }
     }
     stage('Test1') {
       steps {
-        timestamps()
-        echo 'test1'
+        echo 'Test 1 Started'
       }
     }
     stage('Deploy') {
