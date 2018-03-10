@@ -9,7 +9,4 @@ pipeline {
       }
     }
   }
-  environment {
-    label = 'eytest'
-  }
 }
