@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('Environment') {
       steps {
-        echo 'Installing ruby...'
+        echo 'Installing ruby1...'
         sh 'rvm fix-permissions'
-        sh '/bin/bash -l -c "rvm install 2.2"'       
+        sh '/bin/bash -l -c "rvm install 2.2"'
       }
     }
   }
