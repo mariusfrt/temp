@@ -4,7 +4,7 @@ pipeline {
     stage('Environment') {
       steps {
         echo 'Installing ruby1...'
-        sh '/bin/bash -l -c "rvm install 2.2"'
+        sh '/bin/bash -l -c "sudo rvm install 2.2"'
       }
     }
   }
