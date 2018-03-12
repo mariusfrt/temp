@@ -16,7 +16,7 @@ pipeline {
           doGenerateSubmoduleConfigurations: false,
           extensions: [[$class: 'CloneOption', noTags: true, shallow: true]],
           submoduleCfg: [],
-          userRemoteConfigs: [[credentialsId: 'gittest', url: 'https://github.com/mariusfrt/temp.git', permissions: 'READABLE']]])
+          userRemoteConfigs: [[credentialsId: 'eyautomation', url: 'https://github.com/trilogy-group/ey-dredd.git', permissions: 'READABLE']]])
         }
         
       }
